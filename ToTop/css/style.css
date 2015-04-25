@@ -1,0 +1,53 @@
+.container{
+	width: 990px;
+	margin:0 auto;
+}
+.container .block{
+	width: 200px;
+	height: 300px;
+	background-color:#9BA5D2;
+	margin:30px 20px;
+	float: left;
+	text-align: center;
+	line-height: 300px;
+}
+.clearfix:after{
+	content:" ";
+	display:block;
+	height:0;
+	clear:both;
+	visibility: hidden;
+}
+/* 回到顶部样式S */
+.totop{
+	position: fixed;
+	right: 150px;
+	bottom: 18px;
+}
+.totop a{
+	display: block;
+	width: 45px;
+	height: 45px;
+	background-color: #FF756F;
+	color:#fff;
+	text-decoration: none;
+	text-align: center;
+	line-height: 22px;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.totop a:hover{
+	background: #ff3027;
+}
+.totop a b{
+	display: block;
+	width: 19px;
+	height: 23px;
+	background: url(../img/top.png) 0 0 no-repeat;
+	position: absolute;
+	right: 13px;
+	top: 11px;
+}
+/* 回到顶部样式E */
